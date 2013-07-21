@@ -4,13 +4,19 @@ set_calculator
 A compiler project to create a set calculator developed with flex and bison and is prepared for code generating by LLVM.
 
 The input should be like this: (#commment)
+
 {'d', 'f'} + {'d'}    #union
+
 {'a', 'b'} - {'b'}    #difference
+
 {'g', 'e'} * {'g'}    #intersection
 
 and the expected out put should be:
+
 {'d', 'f'}
+
 {'a'}
+
 {'g'}
 
 Please make sure your computer has flex and bison installation to run this project.
